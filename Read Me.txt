@@ -1,0 +1,26 @@
+https://github.com/BajranGun
+***BajrangGun***
+Instagram Follower Message Bot
+
+With this bot, you can send messages to followers of accounts that you choose. The bot has a simple user interface in which you select the account you want to log in and accounts whose followers you want to send message to.
+
+I used Python 3.9 with TKinter for user interface and Selenium for webscraping(getting xpath etc.)
+
+!!!!!!!IMPORTANT!!!!!!!!!
+The chromedriver.exe file must be same with your current chrome driver version so do not forget to check that first.
+!!!!!!!IMPORTANT!!!!!!!!!
+
+When you run the bot, it will automatically start sending messages and give you feedback on possible errors. So be careful and make sure you have the right account to send before running.
+
+If you want, you comment line 217 in FollowerBot.py file in order to disable sending messages. This way the bot will still every follower but it won't send messages.
+
+Also, you can comment line 15 in FollowerBot.py file to launch the browser once the bot runs. This way you can see what's going on background.
+
+
+Basically, you first enter an account username and password to login, select that account and then enter an account name to send messages to it's followers and the amount of followers you want to get from that account. The bot will get the amount expected and then you can click run bot and write your message along with how many of the followers you want to send. The bot will choose randomly from followers of that account and send messages.
+
+Keep in mind that bot only gets followers once when you add the account and never again. It will use what it gets the first time for the next times as well.
+
+So if you update the followers of an account, you will have to remove it and add it again.
+
+You can contact me at kadirorhan367@gmail.com if you have questions or suggestions to improve the program.
